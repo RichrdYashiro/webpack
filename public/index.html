@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Послушай звуки природы</h1>
+    <div class="weather">
+      <div class="weather__block weather__block--summer">
+        <img src="assets/icons/cloud-snow.svg" alt="Snow" />
+      </div>
+      <div class="weather__block weather__block--rain">
+        <img src="assets/icons/cloud-rain.svg" alt="Rain" />
+      </div>
+      <div class="weather__block weather__block--winter">
+        <img src="assets/icons/cloud-snow.svg" alt="Snow" />
+      </div>
+    </div>
+    <input class="sound" type="range" min="0" max="100" value="50" step="1" />
+  </body>
+  <audio id="weatherSound" src=""></audio>
+</html>
